@@ -1,0 +1,13 @@
+extend ../components/template.pug
+block contents
+	section(class="sign")
+			section(class="sign__container")
+				h2 Regístrate
+				form(class="sign__container--form" action="")
+					input(class="input" type="text" placeholder="Nombre")
+					input(class="input" type="text" placeholder="Correo")
+					input(class="input" type="password" placeholder="Contraseña")
+					button(class="button") Registrarme
+				p(class="sign__container--register") 
+					|¿Ya tienes cuenta? 
+					a(href="./login.html") Iniciar sesión

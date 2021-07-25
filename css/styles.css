@@ -83,3 +83,98 @@ header{
 
 
 /* ---------LOGIN--------- */
+.sign{
+    background:linear-gradient(#ab88ff, #21c08b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 28px;
+    min-height: calc(100vh - 200px);
+}
+.sign__container{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 40px;
+    min-height: 600px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.sign__container--form{
+    display: flex;
+    flex-direction: column;
+}
+.sign__container--form label{
+    font-size: 1.4rem;
+}
+.sign__container--remember-me{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.sign__container--remember-me a{
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-align: end;
+}
+.sign__container--remember-me a:hover{
+    text-decoration: underline;
+}
+.sign__container--social-media > div{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.sign__container--social-media > div > img{
+    width: 30px;
+    margin-right:10px;
+}
+.sign__container--register{
+    font-size: 1.4rem;
+}
+.sign__container--register a{
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+.sign__container--register a:hover{
+    text-decoration: underline;
+}
+.input{
+    background-color: transparent;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom: 2px solid white;
+    font-size: 1.6rem;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 20px;
+    padding: 8px 20px;
+    outline: none;
+    height: 5rem;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+.button{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: 'Muli', sans-serif;
+    letter-spacing: 2px;
+    height: 5rem;
+    margin: 10px 0;
+}

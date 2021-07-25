@@ -6,17 +6,19 @@ block contents
 			form(class="sign__container--form" action="")
 				input(class="input" type="text" placeholder="Correo")
 				input(class="input" type="password" placeholder="Contraseña")
-				button(class="button") Iniciar sesión 
+				button(class="button") Iniciar Sesión 
 				div(class="sign__container--remember-me")
 					label(for="")
 						input(type="checkbox" name="" id="cbox1" value="checkbox")
 						| Recuérdame  
 					a(href="/") Olvidé mi contraseña
 			section(class="sign__container--social-media")
-				div: img(src="../images/google-icon.png" alt="Google") 
-				| Inciciar sesión con Google
-				div: img(src="../images/twitter-icon.png" alt="Twitter")
-				| Iniciar sesión con Twitter
+				div
+					img(src="../images/google-icon.png" alt="Google") 
+					|Iniciar sesión con Google
+				div
+					img(src="../images/twitter-icon.png" alt="Twitter")
+					|Iniciar sesión con Twitter
 			p(class="sign__container--register")
 					| ¿No tienes cuenta? 
 					a(href="/") Regístrate

@@ -11,6 +11,8 @@ body{
     background-color: #AB88FF;
 }
 
+
+/* ---------HEADER--------- */
 header{
     background-color: #AB88FF;
     width: 100%;
@@ -178,3 +180,29 @@ header{
     height: 5rem;
     margin: 10px 0;
 }
+
+
+
+/* ---------NOT FOUND--------- */
+.not-found-container{
+    min-height: calc(100vh - 180px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2.8rem;
+  }
+  .not-found-container h1{
+    text-transform: uppercase;
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: pulse;
+    animation-duration: 1s;
+  }
+  @keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+  }

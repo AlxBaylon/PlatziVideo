@@ -96,10 +96,28 @@ header{
 /* ----------------Carousel----------------- */
 .carousel{
     width: 100%;
-    overflow: hidden;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
     padding: 32px;
+    margin: 16px;
     position: relative;
 }
+.carousel::-webkit-scrollbar{
+    background-color: transparent;
+    height: 8px;
+}
+.carousel:hover::-webkit-scrollbar{
+    background-color: lavender;
+}
+  
+.carousel::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
+  
+.carousel:hover::-webkit-scrollbar-thumb{
+    background-color: gold;
+}
+
 .carousel h3{
     color: white;
     font-size: 1.6rem;

@@ -1,0 +1,20 @@
+$Fuente: "Muli", sans-serif;
+$color--purple: #5E1DFC;
+$color--lavender: #AB88FF;
+$color--purple-blue: #8F57FD;
+$color--green: #21C08B;
+$color--golden: #E6AF2E;
+$color--white: #ebe7f3;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: $Fuente;
+}
+body{
+    background-color: $color--lavender;
+}

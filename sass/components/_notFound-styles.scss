@@ -1,0 +1,22 @@
+.not-found-container{
+    min-height: calc(100vh - 180px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $color--white;
+    font-size: 2.8rem;
+    & h1{
+        text-transform: uppercase;
+        animation-duration: 2.5s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+        animation-name: pulse;
+        animation-duration: 1s;
+      }
+      @keyframes pulse {
+        0% {transform: scale(1);}
+        50% {transform: scale(1.2);}
+        100% {transform: scale(1);}
+      }
+}
